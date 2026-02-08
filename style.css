@@ -280,6 +280,12 @@ html {
     position: relative;
 }
 
+#behance {
+    letter-spacing: 6px;
+    display: flex;
+    justify-content: center;
+}
+
 .introduction p {
     max-width: 100%;
     height: auto;
