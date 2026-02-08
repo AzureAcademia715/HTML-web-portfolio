@@ -5,11 +5,15 @@
 
 html {
     box-sizing: border-box;
-    width: 100%;
+    max-width: 90%;
+    height: auto;
+    background: linear-gradient(to top, rgba(0,0,0,0.35)50%, rgba(0,0,0,0.35)50%), url(Images/Azure\ Edge\ [A].jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .main{
-    width: 109vw;
+    width: 100vw;
     height: auto;
     font-family: Oxanium;
     background: linear-gradient(to top, rgba(0,0,0,0.35)50%, rgba(0,0,0,0.35)50%), url(Images/Azure\ Edge\ [A].jpg);
@@ -21,7 +25,6 @@ html {
     width: 1200px;
     height: 75px;
     margin: auto;
-
 }
 
 .icon{
@@ -40,12 +43,12 @@ html {
 }
 
 #myLogo{
-    height: 150px;
-    width: 150px;
+    max-width: 100%;
+    height: auto;
     background-color: #ffa500;
     border-radius: 65%;
     padding: 3px;
-    margin-top: 10px;
+    margin: 20px -25px;
     display: inline-block;
     transition: filter 0.3s ease;
 }
@@ -56,28 +59,34 @@ html {
 }
 
 #me {
+    max-width: 90%;
+    height: auto;
     background-color: #ffa500;
     border-radius: 45% 5%;
     position: relative;
-    left: -160px;
+    top: 75px;
+    left: -195px;
     padding: 3px 10px;
-    box-shadow: -5px 5px 8px gray;
+    box-shadow: -5px 3px 10px white;
 }
 
 #azedge {
+    max-width: 90%;
+    height: auto;
     background-color: #d396ee8b;
     border-radius: 50%;
     position: relative;
-    top: -10px;
-    right: -45px;
+    top: 60px;
+    right: -75px;
     padding: 1px 8px;
-    box-shadow: 5px 5px 8px gray;
+    box-shadow: 5px 5px 10px white;
 }
 
 .menu{
     width: 400px;
     float: left;
     height: 70px;
+    margin-left: 5%;
 }
 
 .menu ul{
@@ -116,11 +125,12 @@ html {
     justify-content: flex-end;
     align-items: center;
     line-height: 200%;
+    text-align: center;
 }
 
-/* .betas {
-    white-space: nowrap;
-}*/
+.betas {
+    text-wrap: balance;
+}
 
 .reach-me{
     display: flex;
@@ -149,6 +159,7 @@ html {
     background: #ffa500;
     border: 1px solid orange;
     position: relative;
+    left: 0;
     margin: 15px;
     color: #ffffff;
     font-size: 20px;
@@ -183,16 +194,17 @@ html {
 .content{
     width: 1200px;
     height: auto;
-    margin: auto;
+    margin: 2.65%;
     padding-top: 45px;
     color: white;
     position: relative;
+    left: -32px;
 }
 
 .content .par{
     width: 800px;
     position: relative;
-    left: 11%;
+    left: 15%;
     text-wrap: balance;
     padding-bottom: 25px;
     font-family: arial;
@@ -207,17 +219,19 @@ html {
     display:inline-block;
     color: orange;
     margin-top: 2%;
-    margin-left: -8%;
+    margin-left: -2%;
     letter-spacing: 2px;
     line-height: 175%;
     text-shadow: 2px 2px 5px white;
 }
 
 .introduction h1 {
+    max-width: 100%;
     font-family: 'Times New Roman';
     font-size: 50px;
     color: orange;
-    text-align: center;
+    text-align: start;
+    text-indent: 15%;
     margin-top: 9%;
     letter-spacing: 2px;
     text-shadow: 2px 2px 5px rgb(255, 215, 255);
@@ -267,6 +281,8 @@ html {
 }
 
 .introduction p {
+    max-width: 100%;
+    height: auto;
     font-family: "Oxanium";
     font-size: 2em;
     text-indent: 10%;
@@ -279,7 +295,8 @@ html {
     font-family: 'Times New Roman';
     font-size: 45px;
     padding-left: 20px;
-    margin-top: 9%;
+    margin-top: 15%;
+    margin-bottom: 5%;
     margin-left: 155px;
     letter-spacing: 2px;
     color: #fff;
@@ -294,7 +311,7 @@ h2 {
     padding: 15px 20px;
     margin-top: 9%;
     position: relative;
-    left: -70px;
+    left: 3%;
     letter-spacing: 2px;
 }
 
@@ -362,6 +379,7 @@ h2 {
 }
 
 .grid-gallery{
+
   --size: 100px;
   display: grid;
   position: relative;
@@ -455,6 +473,8 @@ hr{
 }
 
 #first-bar {
+    border: none;
+    width: 105%;
     margin-top: 145px;
     border-top: .07rem solid rgb(248, 220, 255);
     border-bottom: .3rem solid rgb(248, 220, 255);
@@ -472,6 +492,11 @@ hr{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.foot-socials {
+    max-width: 100%;
+    height: auto;
 }
 
 .foot-socials ion-icon{
